@@ -1,0 +1,16 @@
+User-agent: *
+Allow: /
+
+# Privatne / tehničke stranice — ne indeksirati
+Disallow: /login
+Disallow: /register
+Disallow: /forgot-password
+Disallow: /reset-password
+Disallow: /oauth-consent
+
+# Dozvoli resurse potrebne za rendering
+Allow: /assets/
+Allow: /*.css$
+Allow: /*.js$
+
+Sitemap: https://folkloroprema.rs/sitemap.xml
