@@ -1,0 +1,68 @@
+{
+  "name": "Upit",
+  "type": "object",
+  "properties": {
+    "ime": {
+      "type": "string",
+      "title": "Ime"
+    },
+    "prezime": {
+      "type": "string",
+      "title": "Prezime"
+    },
+    "naziv_kud": {
+      "type": "string",
+      "title": "Naziv KUD-a"
+    },
+    "email": {
+      "type": "string",
+      "title": "E-mail",
+      "format": "email"
+    },
+    "whatsapp": {
+      "type": "string",
+      "title": "WhatsApp"
+    },
+    "drzava": {
+      "type": "string",
+      "title": "Dr\u017eava"
+    },
+    "grad": {
+      "type": "string",
+      "title": "Grad"
+    },
+    "broj_clanova": {
+      "type": "string",
+      "title": "Broj \u010dlanova / igra\u010da"
+    },
+    "kategorije": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "title": "Potrebne kategorije"
+    },
+    "kolicina": {
+      "type": "string",
+      "title": "Okvirna koli\u010dina"
+    },
+    "poruka": {
+      "type": "string",
+      "title": "Poruka"
+    },
+    "rok": {
+      "type": "string",
+      "title": "Rok / datum"
+    },
+    "proizvod": {
+      "type": "string",
+      "title": "Proizvod (pre-popunjeno)"
+    }
+  },
+  "required": [
+    "ime",
+    "prezime",
+    "naziv_kud",
+    "email"
+  ]
+}
